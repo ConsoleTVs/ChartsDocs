@@ -1,0 +1,3 @@
+# Full Example :D
+
+[[toc]]
