@@ -1,8 +1,8 @@
 ---
 home: true
 actionText: Get Started →
-heroImage: https://i.imgur.com/xYpzCKI.png
-actionLink: /docs/
+heroImage: /logo.png
+actionLink: /getting_started
 features:
 - title: Simplicity First
   details: Minimal API to create modern and robust charts out of a few lines of PHP code.
