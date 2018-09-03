@@ -1,8 +1,10 @@
 <template>
   <div class="sidebar">
-    <CodeFund
-        propertyId="7c275ea2-8108-428b-8a82-6a4d59979e32"
-    />
+    <center>
+        <CodeFund
+            propertyId="7c275ea2-8108-428b-8a82-6a4d59979e32"
+        />
+    </center>
     <NavLinks/>
     <slot name="top"/>
     <ul class="sidebar-links" v-if="items.length">
