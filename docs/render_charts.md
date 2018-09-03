@@ -18,7 +18,7 @@ return view('sample_view', ['chart' => $chart]));
 
 ## Load the JS library
 
-You need to make sure you loaded the library of javascript before you render the chart. Check out the [Supported Libraries](/docs/supported_libraries.html)
+You need to make sure you loaded the library of javascript before you render the chart. Check out the [Supported Libraries](/supported_libraries.html)
 
 You can use the CDN provided by that page or use NPM / other method to load it.
 

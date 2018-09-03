@@ -22,4 +22,4 @@ It depends... Using this library will still give you all the freedom you have to
 the fact that you can interact with natively with the chart in diferent ways. First of all, it allows for customization with the
 same API that the native one, and second, it stores the chart into a variable that you can still read and use in JavaScript.
 
-If you still want to continue, head over the [installation](/docs/installation.html).
+If you still want to continue, head over the [installation](/installation.html).

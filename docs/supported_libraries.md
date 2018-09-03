@@ -93,3 +93,28 @@ The library name is used as a reference to create charts.
 ### Supported chart types
 
 To see a list of what Echarts supports, check out <https://ecomfe.github.io/echarts-doc/public/en/option.html>
+
+## Frappe (> 1.1.0)
+
+Chartjs is often one of the most chosen JS library. It's good but it lacks on a lot of places in my opinion.
+
+### Library name
+
+The library name is used as a reference to create charts.
+
+`Frappe`
+
+### CDN
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/frappe-charts@1.1.0/dist/frappe-charts.min.iife.js"></script>
+```
+
+### Supported chart types
+
+-   `line`
+-   `bar`
+-   `pie`
+-   `progress`
+
+More info here: <https://frappe.io/charts/>

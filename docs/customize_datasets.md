@@ -69,3 +69,9 @@ The available presets differ depending on the JS library you're using. You can f
 | Parameter                                       | Description                                          |
 | ----------------------------------------------- | ---------------------------------------------------- |
 | `color($color)`                                 | Set the dataset color.                               |
+
+### Frappe
+
+| Parameter                                       | Description                                          |
+| ----------------------------------------------- | ---------------------------------------------------- |
+| `color(string $color)`                          | Determines the color of the dataset.                 |

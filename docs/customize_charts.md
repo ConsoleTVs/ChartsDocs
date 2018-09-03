@@ -88,3 +88,16 @@ The available presets differ depending on the JS library you're using. You can f
 | `displayAxes(bool $display)`                       | Display the chart axes.                                             |
 | `export(bool $export = true, string $title = ' ')` | ALlow to export the chart.                                          |
 | `title(string $title, int $font_size = 14, string $color = '#666', bool $bold = true, string $font_family = "'Helvetica Neue', 'Helvetica', 'Arial', sans-serif")`                               | Set the chart title.                                                |
+
+### Frappe
+
+| Parameter                          | Description                                                                               |
+| ---------------------------------- | ----------------------------------------------------------------------------------------- |
+| `title(string $title)`             | Add a title to the Chart.                                                                 |
+| `spaceRatio(float $space = 0.75)`  | Determines the spaceRatio of the bars.                                                    |
+| `stacked(bool $stacked)`           | Determines if the bars are stacked.                                                       |
+| `isNavigable(bool $value)`         | Makes the chart interactive with arrow keys and highlights the current active data point. |
+| `valuesOverPoints(bool $value)`    | To display data values over bars or dots in an axis graph.                                |
+| `hideDots(bool $value)`            | Determines if the lines will show a dot.                                                  |
+| `hideLine(bool $value)`            | Determines if the line will be hidden.                                                    |
+| `heatline(bool $value)`            | Determines if the line will be a heatline.                                                |

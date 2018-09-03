@@ -16,13 +16,13 @@ $chart->dataset(string $name, string $type, $data);
 | Parameter   | Description |
 | ----------- | ------------- |
 | **`$name`** | Determines the name of the dataset. This is mostly used as a legend reference in the rendered chart |
-| **`$type`** | Determines the type of dataset you're creating. Refer to the [Supported libraries](/docs/supported_libraries.html) to learn more. This parameter depends on the chosen library.      |
+| **`$type`** | Determines the type of dataset you're creating. Refer to the [Supported libraries](/supported_libraries.html) to learn more. This parameter depends on the chosen library.      |
 | **`$data`** | Determines the data points. It have to be an array of numbers or a collection of numbers.      |
 
 Example calls are as follows
 
 ::: warning
-The `$type` of the example are generic. They should correspond to the chosen library. Refer to the [Supported libraries](/docs/supported_libraries.html) to learn more.
+The `$type` of the example are generic. They should correspond to the chosen library. Refer to the [Supported libraries](/supported_libraries.html) to learn more.
 :::
 
 ```php
