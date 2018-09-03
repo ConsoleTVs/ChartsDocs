@@ -2,7 +2,7 @@ module.exports = {
     title: 'Laravel Charts',
     description: 'The missing laravel charting library',
     themeConfig: {
-        docsDir: 'docs',
+
         sidebarDepth: 3,
         nav: [
             { text: 'Home', link: '/' },
