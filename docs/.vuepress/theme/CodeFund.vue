@@ -25,7 +25,7 @@
             script.setAttribute("type", "text/javascript");
             script.setAttribute(
                 "src",
-                `https://codefund.io/scripts/${this.propertyId}/embed.js&target=codefund`
+                `https://codefund.io/scripts/${this.propertyId}/embed.js?target=codefund`
             );
             this.$refs.codefund.appendChild(script);
         }
