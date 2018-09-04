@@ -1,6 +1,6 @@
 <template>
     <div class="codefund">
-        <div ref="codefund" id="codefund_ad"></div>
+        <div ref="codefund" id="codefund"></div>
     </div>
 </template>
 
@@ -25,7 +25,7 @@
             script.setAttribute("type", "text/javascript");
             script.setAttribute(
                 "src",
-                `https://codefund.io/scripts/${this.propertyId}/embed.js`
+                `https://codefund.io/scripts/${this.propertyId}/embed.js&target=codefund`
             );
             this.$refs.codefund.appendChild(script);
         }
