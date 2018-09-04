@@ -7,7 +7,6 @@ export default ({
     router.afterEach((to, from) => {
         try {
             window._codefund.serve()
-            console.log('Refreshed')
         } catch (err) {
             //
         }

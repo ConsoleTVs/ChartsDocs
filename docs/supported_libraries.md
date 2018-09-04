@@ -96,7 +96,7 @@ To see a list of what Echarts supports, check out <https://ecomfe.github.io/echa
 
 ## Frappe (> 1.1.0)
 
-Chartjs is often one of the most chosen JS library. It's good but it lacks on a lot of places in my opinion.
+Frappe is a great library to show some cool charts!
 
 ### Library name
 
@@ -118,3 +118,25 @@ The library name is used as a reference to create charts.
 -   `progress`
 
 More info here: <https://frappe.io/charts/>
+
+## C3 (> 0.6.7)
+
+Although C3 is still in development, charts supports it. Few dataset options are provided since all
+customization is mainly done in pure CSS.
+
+### Library name
+
+The library name is used as a reference to create charts.
+
+`C3`
+
+### CDN
+
+```html
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.7/c3.min.js"></script>
+```
+
+### Supported chart types
+
+More info here: <https://c3js.org/examples.html>

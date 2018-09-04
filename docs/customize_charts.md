@@ -101,3 +101,11 @@ The available presets differ depending on the JS library you're using. You can f
 | `hideDots(bool $value)`            | Determines if the lines will show a dot.                                                  |
 | `hideLine(bool $value)`            | Determines if the line will be hidden.                                                    |
 | `heatline(bool $value)`            | Determines if the line will be a heatline.                                                |
+
+### C3
+
+| Parameter                          | Description                                                                               |
+| ---------------------------------- | ----------------------------------------------------------------------------------------- |
+| `legend(bool $display)`            | Determines if the chart legend will be displayed.                                         |
+| `grid(bool $display)`              | Determines if the chart grid will be shown.                                               |
+| `isNavigable(bool $value)`         | Determines if the chart tooltip will be shown.                                            |

@@ -24,8 +24,8 @@
             const script = document.createElement("script");
             script.setAttribute("type", "text/javascript");
             script.setAttribute(
-            "src",
-            `https://codefund.io/scripts/${this.propertyId}/embed.js`
+                "src",
+                `https://codefund.io/scripts/${this.propertyId}/embed.js`
             );
             this.$refs.codefund.appendChild(script);
         }

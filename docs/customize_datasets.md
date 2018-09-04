@@ -75,3 +75,7 @@ The available presets differ depending on the JS library you're using. You can f
 | Parameter                                       | Description                                          |
 | ----------------------------------------------- | ---------------------------------------------------- |
 | `color(string $color)`                          | Determines the color of the dataset.                 |
+
+### C3
+
+C3 uses CSS to customize the datasets. Sorry...
