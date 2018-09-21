@@ -87,6 +87,7 @@ The available presets differ depending on the JS library you're using. You can f
 | `minimalist(bool $minimalist = true)`              | Show the minimalistic.                                              |
 | `displayAxes(bool $display)`                       | Display the chart axes.                                             |
 | `export(bool $export = true, string $title = ' ')` | ALlow to export the chart.                                          |
+| `theme(string $theme)`                             | Set the chart theme ('default', 'light', 'dark').                   |
 | `title(string $title, int $font_size = 14, string $color = '#666', bool $bold = true, string $font_family = "'Helvetica Neue', 'Helvetica', 'Arial', sans-serif")`                               | Set the chart title.                                                |
 
 ### Frappe
