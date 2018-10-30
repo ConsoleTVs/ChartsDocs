@@ -13,7 +13,7 @@ php artisan make:chart {Name} {Library?}
 | Parameter   | Description |
 | ----------- | ------------- |
 | **`name`** | Determines the name of the chart you're willing to create. Try to refer to what the chart is actually going to do, for example `LatestUsers` or `MontlyViews`, etc |
-| **`Library`** | *Pptional* parameter that refers to the library that you're willing to use as a front-end for the chart. This is important because Charts will load the presets and configuration corresponding to that chart. If this parameter is not specified, the one from the default config will be used. Possible values are explained in the [supported libraries](/supported_libraries.html).      |
+| **`Library`** | *Optional* parameter that refers to the library that you're willing to use as a front-end for the chart. This is important because Charts will load the presets and configuration corresponding to that chart. If this parameter is not specified, the one from the default config will be used. Possible values are explained in the [supported libraries](/supported_libraries.html).      |
 
 Once you run the command, a new file will be placed under `app\Charts` with the file name the same as the `name` parameter followed
 by the typical `.php` extension.
