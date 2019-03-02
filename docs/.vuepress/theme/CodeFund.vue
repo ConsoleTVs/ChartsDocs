@@ -1,7 +1,5 @@
 <template>
-    <div class="codefund">
-        <div ref="codefund" id="codefund"></div>
-    </div>
+    <div ref="codefund" id="codefund"></div>
 </template>
 
 <script>
@@ -10,24 +8,30 @@
         props: {
             propertyId: {
                 type: String,
-                required: true,
-                validator: value => {
-                    const r = RegExp(
-                        "^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$",
-                        "i"
-                    );
-                    return r.test(value);
-                }
+                required: true
             }
         },
         mounted () {
-            const script = document.createElement("script");
-            script.setAttribute("type", "text/javascript");
-            script.setAttribute(
-                "src",
-                `https://codefund.io/scripts/${this.propertyId}/embed.js?target=codefund`
-            );
-            this.$refs.codefund.appendChild(script);
+            this.load();
+        },
+        watch: {
+            '$route' (to, from) {
+                if (to.path !== from.path) {
+                    this.$refs.codefund.innerHTML = ''
+                    this.load()
+                }
+            }
+        },
+        methods: {
+            load () {
+                const script = document.createElement("script");
+                script.setAttribute("type", "text/javascript");
+                script.setAttribute(
+                    "src",
+                    `https://codefund.app/properties/${this.propertyId}/funder.js?ts=${Date.now()}`
+                );
+                this.$refs.codefund.appendChild(script);
+            }
         }
     }
 </script>
