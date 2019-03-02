@@ -2,9 +2,7 @@
   <div class="sidebar">
     <div style="padding-top: 1.5rem">
         <center>
-            <CodeFund
-                propertyId="7c275ea2-8108-428b-8a82-6a4d59979e32"
-            />
+            <CodeFund propertyId="84"/>
         </center>
     </div>
     <NavLinks/>
