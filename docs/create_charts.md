@@ -67,7 +67,7 @@ The charts API is as follows:
 | `type(string $type)`                             | Force a chart type, if not set, the first dataset type found will be used.                    |
 | `height(int $height)`                            | Set the chart height. Null / 0 by default = auto.                                             |
 | `width(int $width)`                              | Set the chart width. Null / 0 by default = auto                                               |
-| `setScriptAttribute(string $key, string $value)` | Set an attribute for the <script> tag. eg: nonce="someRandomString"                                               |
+| `setScriptAttribute(string $key, string $value)` | Set an attribute for the script tag. eg: nonce="someRandomString"                             |
 | `loader(bool $loader)`                           | Determines if the chart loader should be displayed. Default to true                           |
 | `loaderColor(string $color)`                     | Set the chart loader color. Default: #22292F.                                                 |
 | `reset()`                                        | Reset the chart options.                                                                      |
