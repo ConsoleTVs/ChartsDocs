@@ -20,7 +20,7 @@ This will install laravel charts into your existing project.
 If you're using **Laravel 5.5 or higher** you can skip this step
 :::
 
-Register the service provider in thefile located at: `app/config.php` in the `providers` key.
+Register the service provider in thefile located at: `config/app.php` in the `providers` key.
 
 ```php
 ConsoleTVs\Charts\ChartsServiceProvider::class,
