@@ -39,28 +39,4 @@ $chart->dataset('Sample Test', 'line', [1,4,3]);
 return $chart->api();
 ```
 
-## Update the chart after rendering
-
-It is possible to easily update the chart after rendering, with JS.
-
-The API endpoint URL is accessible in the variable `{{ $chart->id }}_api_url`.
-
-You can refresh the chart with the function `{{ $chart->id }}_refresh()`.
-
-You can pass a new URL in the function's param:
-```js
-{{ $chart->id }}_refresh(url);
-```
-
-::: tip
-With this method you can easily refresh data in all charts after selecting a date, or applying a filter.
-:::
-
-It is possible to do, for example:
-
-```js
-var original_api_url = gpsjedrixcobvnumklwqztfha_api_url;
-gpsjedrixcobvnumklwqztfha_refresh(original_api_url + "?date_start=2019-01-01&date_end=2019-12-31");
-```
-
 For more information about the JS chart variable, see https://charts.erik.cat/render_charts.html#sample-html.
