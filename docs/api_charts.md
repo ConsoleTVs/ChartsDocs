@@ -41,6 +41,8 @@ return $chart->api();
 
 ## Update the chart after rendering
 
+This feature has been implemented by the community member [@sardoj](https://github.com/sardoj)
+
 It is possible to easily update the chart after rendering it, by using client side JS.
 
 The API endpoint URL is accessible in the JS variable
