@@ -56,4 +56,16 @@ where the data will come from.
 {{ $chart->id }}_refresh(url)
 ```
 
+::: tip
+With this method you can easily refresh data in all charts after selecting a data, or applying a filter. Very usefull when
+your chart needs to display diferent information regarding to a user input.
+:::
+
+As an example, for a user to see a chart data between two dates, (consider the server side done already, if you have no idea how, this is a laravel route + controller method, so you can do anything) you would just do something like that:
+
+```js
+var original_api_url = {{ $chart->id }}_api_url;
+{{ $chart->id }}_refresh(original_api_url + "?date_start=2019-01-01&date_end=2019-12-31");
+```
+
 For more information about the JS chart variable, see https://charts.erik.cat/render_charts.html#sample-html.
