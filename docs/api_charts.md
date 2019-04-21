@@ -41,4 +41,19 @@ return $chart->api();
 
 ## Update the chart after rendering
 
+It is possible to easily update the chart after rendering it, by using client side JS.
+
+The API endpoint URL is accessible in the JS variable
+
+```php
+{{ $chart->id }}_api_url
+```
+
+To refresh the chart, a client side JS function is also available. To call you just need to pass it the refresh URL
+where the data will come from.
+
+```php
+{{ $chart->id }}_refresh(url)
+```
+
 For more information about the JS chart variable, see https://charts.erik.cat/render_charts.html#sample-html.
