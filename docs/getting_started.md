@@ -28,4 +28,5 @@ If you still want to continue, head over the [installation](/installation.html).
 
 The community has already created a few resources with this library. Here's one created by CodeTime:
 
-[![YoutubeSeries](http://pasteupload.com/images/2019/03/28/imagen.png)](https://www.youtube.com/watch?v=OwlPlFOVETU&list=PLylMDDjFIp1AGfLRZb2y3DtrofnGm31CB)
+[![YoutubeSeries](https://codetime.io/images/logo-dark.svg)](https://codetime.io/series/laravel-charts)
+
