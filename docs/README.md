@@ -1,14 +1,16 @@
 ---
 home: true
-actionText: Get Started →
 heroImage: /logo.png
-actionLink: /getting_started
+heroText: Laravel Charts
+tagline: The laravel adapter for Chartisan
+actionText: Get Started →
+actionLink: /guide/
 features:
-- title: Simplicity First
-  details: Minimal API to create modern and robust charts out of a few lines of PHP code.
-- title: Vue-Friendly
-  details: Charts works with vue and probably other front-end frameworks due to it's design.
-- title: Presets
-  details: Get up and running quickly with some presets already built for your favourite charting library.
-footer: MIT Licensed | Copyright © 2018-present Èrik Campobadal Forés
+  - title: Chartisan-Powered
+    details: Powered by one of the most powerful charting libraries on the front-end.
+  - title: Performant & Customizable
+    details: Chartisan does allow creating performant and customizable charts out of the box.
+  - title: Laravel features
+    details: Specific laravel features like routing, middlewares and creation commands.
+footer: MIT Licensed — Copyright © 2020-present Erik C. Forés
 ---

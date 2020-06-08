@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Chart Configuration | Laravel Charts</title>
+    <meta name="generator" content="VuePress 1.5.0">
+    <link rel="icon" href="/logo.png">
+    <meta name="description" content="The laravel adapter for Chartisan">
+    <link rel="preload" href="/assets/css/0.styles.e9e110a6.css" as="style"><link rel="preload" href="/assets/js/app.3f84d726.js" as="script"><link rel="preload" href="/assets/js/2.67224501.js" as="script"><link rel="preload" href="/assets/js/7.b5cba499.js" as="script"><link rel="prefetch" href="/assets/js/10.8a7e9cb6.js"><link rel="prefetch" href="/assets/js/11.c457774a.js"><link rel="prefetch" href="/assets/js/3.9fb5582a.js"><link rel="prefetch" href="/assets/js/4.83f4f519.js"><link rel="prefetch" href="/assets/js/5.7b831dd2.js"><link rel="prefetch" href="/assets/js/6.d0f7957a.js"><link rel="prefetch" href="/assets/js/8.6e153cdf.js"><link rel="prefetch" href="/assets/js/9.515c3c66.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.e9e110a6.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/logo.png" alt="Laravel Charts" class="logo"> <span class="site-name can-hide">Laravel Charts</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/guide/" class="nav-link router-link-active">
+  Guide
+</a></div><div class="nav-item"><a href="https://chartisan.dev" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Chartisan
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://github.com/ConsoleTVs/Charts" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><div style="padding-top: 1.5rem"><center><div id="codefund"></div></center></div> <nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/guide/" class="nav-link router-link-active">
+  Guide
+</a></div><div class="nav-item"><a href="https://chartisan.dev" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Chartisan
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://github.com/ConsoleTVs/Charts" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/" aria-current="page" class="sidebar-link">Home</a></li><li><a href="/guide/" aria-current="page" class="sidebar-link">Getting Started</a></li><li><a href="/guide/installation.html" class="sidebar-link">Installation</a></li><li><a href="/guide/create_charts.html" class="sidebar-link">Create Charts</a></li><li><a href="/guide/chart_configuration.html" aria-current="page" class="active sidebar-link">Chart Configuration</a></li><li><a href="/guide/render_charts.html" class="sidebar-link">Render Charts</a></li><li><a href="/guide/chart_customization.html" class="sidebar-link">Customization &amp; API</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="chart-configuration"><a href="#chart-configuration" class="header-anchor">#</a> Chart Configuration</h1> <p>You can customize how some chart configuration on the laravel side by simply applying some of the
+class properties needed.</p> <p>You can modify the following props on the chart:</p> <ul><li>Middlewares</li> <li>Chart name (used to generate the URL)</li> <li>Chart route name</li> <li>Route endpoint prefix</li></ul> <div class="language-php extra-class"><pre class="language-php"><code><span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
+
+<span class="token keyword">declare</span><span class="token punctuation">(</span>strict_types <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">namespace</span> <span class="token package">App<span class="token punctuation">\</span>Charts</span><span class="token punctuation">;</span>
+
+<span class="token keyword">use</span> <span class="token package">ConsoleTVs<span class="token punctuation">\</span>Charts<span class="token punctuation">\</span>BaseChart</span><span class="token punctuation">;</span>
+<span class="token keyword">use</span> <span class="token package">Illuminate<span class="token punctuation">\</span>Http<span class="token punctuation">\</span>Request</span><span class="token punctuation">;</span>
+<span class="token keyword">use</span> <span class="token package">Chartisan<span class="token punctuation">\</span>PHP<span class="token punctuation">\</span>Chartisan</span><span class="token punctuation">;</span>
+
+<span class="token keyword">class</span> <span class="token class-name">SampleChart</span> <span class="token keyword">extends</span> <span class="token class-name">BaseChart</span>
+<span class="token punctuation">{</span>
+    <span class="token comment">/**
+     * Determines the chart name to be used on the
+     * route. If null, the name will be a snake_case
+     * version of the class name.
+     */</span>
+    <span class="token keyword">public</span> <span class="token operator">?</span>string <span class="token variable">$name</span> <span class="token operator">=</span> <span class="token single-quoted-string string">'custom_chart_name'</span><span class="token punctuation">;</span>
+
+    <span class="token comment">/**
+     * Determines the name suffix of the chart route.
+     * This will also be used to get the chart URL
+     * from the blade directrive. If null, the chart
+     * name will be used.
+     */</span>
+    <span class="token keyword">public</span> <span class="token operator">?</span>string <span class="token variable">$routeName</span> <span class="token operator">=</span> <span class="token single-quoted-string string">'chart_route_name'</span><span class="token punctuation">;</span>
+
+    <span class="token comment">/**
+     * Determines the prefix that will be used by the chart
+     * endpoint.
+     */</span>
+    <span class="token keyword">public</span> <span class="token operator">?</span>string <span class="token variable">$prefix</span> <span class="token operator">=</span> <span class="token single-quoted-string string">'some_prefix'</span><span class="token punctuation">;</span>
+
+    <span class="token comment">/**
+     * Determines the middlewares that will be applied
+     * to the chart endpoint.
+     */</span>
+    <span class="token keyword">public</span> <span class="token operator">?</span><span class="token keyword">array</span> <span class="token variable">$middlewares</span> <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token single-quoted-string string">'auth'</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+    <span class="token comment">/**
+     * Handles the HTTP request for the given chart.
+     * It must always return an instance of Chartisan
+     * and never a string or an array.
+     */</span>
+    <span class="token keyword">public</span> <span class="token keyword">function</span> <span class="token function">handler</span><span class="token punctuation">(</span>Request <span class="token variable">$request</span><span class="token punctuation">)</span><span class="token punctuation">:</span> Chartisan
+    <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> Chartisan<span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token function">build</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+            <span class="token operator">-</span><span class="token operator">&gt;</span><span class="token function">labels</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token single-quoted-string string">'First'</span><span class="token punctuation">,</span> <span class="token single-quoted-string string">'Second'</span><span class="token punctuation">,</span> <span class="token single-quoted-string string">'Third'</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+            <span class="token operator">-</span><span class="token operator">&gt;</span><span class="token function">dataset</span><span class="token punctuation">(</span><span class="token single-quoted-string string">'Sample'</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+            <span class="token operator">-</span><span class="token operator">&gt;</span><span class="token function">dataset</span><span class="token punctuation">(</span><span class="token single-quoted-string string">'Sample 2'</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</span></code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/guide/create_charts.html" class="prev">
+        Create Charts
+      </a></span> <span class="next"><a href="/guide/render_charts.html">
+        Render Charts
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.3f84d726.js" defer></script><script src="/assets/js/2.67224501.js" defer></script><script src="/assets/js/7.b5cba499.js" defer></script>
+  </body>
+</html>

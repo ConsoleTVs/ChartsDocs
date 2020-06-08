@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Create Charts | Laravel Charts</title>
+    <meta name="generator" content="VuePress 1.5.0">
+    <link rel="icon" href="/logo.png">
+    <meta name="description" content="The laravel adapter for Chartisan">
+    <link rel="preload" href="/assets/css/0.styles.e9e110a6.css" as="style"><link rel="preload" href="/assets/js/app.3f84d726.js" as="script"><link rel="preload" href="/assets/js/2.67224501.js" as="script"><link rel="preload" href="/assets/js/9.515c3c66.js" as="script"><link rel="prefetch" href="/assets/js/10.8a7e9cb6.js"><link rel="prefetch" href="/assets/js/11.c457774a.js"><link rel="prefetch" href="/assets/js/3.9fb5582a.js"><link rel="prefetch" href="/assets/js/4.83f4f519.js"><link rel="prefetch" href="/assets/js/5.7b831dd2.js"><link rel="prefetch" href="/assets/js/6.d0f7957a.js"><link rel="prefetch" href="/assets/js/7.b5cba499.js"><link rel="prefetch" href="/assets/js/8.6e153cdf.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.e9e110a6.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/logo.png" alt="Laravel Charts" class="logo"> <span class="site-name can-hide">Laravel Charts</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/guide/" class="nav-link router-link-active">
+  Guide
+</a></div><div class="nav-item"><a href="https://chartisan.dev" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Chartisan
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://github.com/ConsoleTVs/Charts" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><div style="padding-top: 1.5rem"><center><div id="codefund"></div></center></div> <nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/guide/" class="nav-link router-link-active">
+  Guide
+</a></div><div class="nav-item"><a href="https://chartisan.dev" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Chartisan
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://github.com/ConsoleTVs/Charts" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/" aria-current="page" class="sidebar-link">Home</a></li><li><a href="/guide/" aria-current="page" class="sidebar-link">Getting Started</a></li><li><a href="/guide/installation.html" class="sidebar-link">Installation</a></li><li><a href="/guide/create_charts.html" aria-current="page" class="active sidebar-link">Create Charts</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/guide/create_charts.html#create-the-chartisan-instance" class="sidebar-link">Create the Chartisan instance</a></li><li class="sidebar-sub-header"><a href="/guide/create_charts.html#register-the-chart" class="sidebar-link">Register the chart</a></li><li class="sidebar-sub-header"><a href="/guide/create_charts.html#generated-routes" class="sidebar-link">Generated routes</a></li></ul></li><li><a href="/guide/chart_configuration.html" class="sidebar-link">Chart Configuration</a></li><li><a href="/guide/render_charts.html" class="sidebar-link">Render Charts</a></li><li><a href="/guide/chart_customization.html" class="sidebar-link">Customization &amp; API</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="create-charts"><a href="#create-charts" class="header-anchor">#</a> Create Charts</h1> <p>You can start creating charts with the typical <code>make</code> command by laravel artisan.</p> <p>Following the other make conventions, you may use the following command to create a new chart and give it
+a name. The name will be used by the class and also the route name. You may further change this in the
+created class.</p> <div class="language- extra-class"><pre class="language-text"><code>php artisan make:chart SampleChart
+</code></pre></div><p>This will create a SampleChart class under <code>App\Charts</code> namespace that will look like this:</p> <div class="language-php extra-class"><pre class="language-php"><code><span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
+
+<span class="token keyword">declare</span><span class="token punctuation">(</span>strict_types <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">namespace</span> <span class="token package">App<span class="token punctuation">\</span>Charts</span><span class="token punctuation">;</span>
+
+<span class="token keyword">use</span> <span class="token package">ConsoleTVs<span class="token punctuation">\</span>Charts<span class="token punctuation">\</span>BaseChart</span><span class="token punctuation">;</span>
+<span class="token keyword">use</span> <span class="token package">Illuminate<span class="token punctuation">\</span>Http<span class="token punctuation">\</span>Request</span><span class="token punctuation">;</span>
+<span class="token keyword">use</span> <span class="token package">Chartisan<span class="token punctuation">\</span>PHP<span class="token punctuation">\</span>Chartisan</span><span class="token punctuation">;</span>
+
+<span class="token keyword">class</span> <span class="token class-name">SampleChart</span> <span class="token keyword">extends</span> <span class="token class-name">BaseChart</span>
+<span class="token punctuation">{</span>
+    <span class="token comment">/**
+     * Handles the HTTP request for the given chart.
+     * It must always return an instance of Chartisan
+     * and never a string or an array.
+     */</span>
+    <span class="token keyword">public</span> <span class="token keyword">function</span> <span class="token function">handler</span><span class="token punctuation">(</span>Request <span class="token variable">$request</span><span class="token punctuation">)</span><span class="token punctuation">:</span> Chartisan
+    <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> Chartisan<span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token function">build</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+            <span class="token operator">-</span><span class="token operator">&gt;</span><span class="token function">labels</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token single-quoted-string string">'First'</span><span class="token punctuation">,</span> <span class="token single-quoted-string string">'Second'</span><span class="token punctuation">,</span> <span class="token single-quoted-string string">'Third'</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+            <span class="token operator">-</span><span class="token operator">&gt;</span><span class="token function">dataset</span><span class="token punctuation">(</span><span class="token single-quoted-string string">'Sample'</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+            <span class="token operator">-</span><span class="token operator">&gt;</span><span class="token function">dataset</span><span class="token punctuation">(</span><span class="token single-quoted-string string">'Sample 2'</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</span></code></pre></div><h2 id="create-the-chartisan-instance"><a href="#create-the-chartisan-instance" class="header-anchor">#</a> Create the Chartisan instance</h2> <p>The handler method is the one that will be called when Chartisan tries to get the chart
+data. You'll get the request instance as a parameter in case you want to check for query parameters
+or additional info like headers, or post data. You can modify the Chartisan instance as you need.</p> <p>You can know more about Chartisan at the <a href="https://chartisan.dev" target="_blank" rel="noopener noreferrer">Documentation<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> page.</p> <p>You have to return a Chartisan instance, never a string or an object.</p> <h2 id="register-the-chart"><a href="#register-the-chart" class="header-anchor">#</a> Register the chart</h2> <p>You'll need to manually register using the <code>App\Providers\AppServiceProvider</code></p> <p>Laravel charts have a registered singleton that will be injected to the <code>boot()</code> method on the service provider.</p> <p>You can use the following example as a guide to register an example chart.</p> <div class="language-php extra-class"><pre class="language-php"><code><span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
+
+<span class="token keyword">namespace</span> <span class="token package">App<span class="token punctuation">\</span>Providers</span><span class="token punctuation">;</span>
+
+<span class="token keyword">use</span> <span class="token package">ConsoleTVs<span class="token punctuation">\</span>Charts<span class="token punctuation">\</span>Registrar</span> <span class="token keyword">as</span> Charts<span class="token punctuation">;</span>
+<span class="token keyword">use</span> <span class="token package">Illuminate<span class="token punctuation">\</span>Support<span class="token punctuation">\</span>ServiceProvider</span><span class="token punctuation">;</span>
+
+<span class="token keyword">class</span> <span class="token class-name">AppServiceProvider</span> <span class="token keyword">extends</span> <span class="token class-name">ServiceProvider</span>
+<span class="token punctuation">{</span>
+    <span class="token comment">// ...</span>
+
+    <span class="token comment">/**
+     * Bootstrap any application services.
+     */</span>
+    <span class="token keyword">public</span> <span class="token keyword">function</span> <span class="token function">boot</span><span class="token punctuation">(</span>Charts <span class="token variable">$charts</span><span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token variable">$charts</span><span class="token operator">-</span><span class="token operator">&gt;</span><span class="token function">register</span><span class="token punctuation">(</span><span class="token punctuation">[</span>
+            \<span class="token package">App<span class="token punctuation">\</span>Charts<span class="token punctuation">\</span>SampleChart</span><span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token keyword">class</span>
+        <span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</span></code></pre></div><h2 id="generated-routes"><a href="#generated-routes" class="header-anchor">#</a> Generated routes</h2> <p>You can use php artisan route:list -c to see all your application routes and check out the chart routes that have
+been created by Laravel Charts in case you need them.</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/guide/installation.html" class="prev">
+        Installation
+      </a></span> <span class="next"><a href="/guide/chart_configuration.html">
+        Chart Configuration
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.3f84d726.js" defer></script><script src="/assets/js/2.67224501.js" defer></script><script src="/assets/js/9.515c3c66.js" defer></script>
+  </body>
+</html>
