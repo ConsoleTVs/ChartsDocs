@@ -5,7 +5,7 @@ You can install Laravel Charts by using [Composer](https://getcomposer.org/)
 You can use the following composer command to install it into an existing laravel project.
 
 ```
-composer require consoletvs/charts:7.*
+composer require consoletvs/charts "7.*"
 ```
 
 Laravel will already register the service provider to your application because laravel charts
