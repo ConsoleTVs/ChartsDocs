@@ -1,10 +1,11 @@
 module.exports = {
     title: 'Laravel Charts',
-    description: 'The missing laravel charting library',
+    description: 'The missing laravel charting library (outdated)',
     themeConfig: {
         sidebarDepth: 3,
         nav: [
             { text: 'Home', link: '/' },
+			{ text: 'Latest Version', link: 'https://charts.erik.cat' },
             { text: 'Documentation', link: '/getting_started' },
             { text: 'Github', link: 'https://github.com/ConsoleTVs/Charts' },
             { text: 'erik.cat', link: 'https://erik.cat' },
