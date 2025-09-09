@@ -1,7 +1,10 @@
 module.exports = {
   title: 'Laravel Charts',
   description: 'The laravel adapter for Chartisan',
-  head: [['link', { rel: 'icon', href: '/logo.png' }]],
+  head: [
+    ['link', { rel: 'icon', href: '/logo.png' }],
+    ['meta', { name: 'google-adsense-account', content: 'ca-pub-9814799490323520' }],
+  ],
   themeConfig: {
     logo: '/logo.png',
     searchPlaceholder: 'Search...',

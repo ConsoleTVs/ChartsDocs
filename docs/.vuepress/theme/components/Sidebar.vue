@@ -1,9 +1,7 @@
 <template>
   <aside class="sidebar">
     <div style="padding-top: 1.5rem">
-      <center>
-        <CodeFund propertyId="84" />
-      </center>
+      <center></center>
     </div>
 
     <NavLinks />
@@ -18,11 +16,10 @@
 <script>
 import SidebarLinks from '@theme/components/SidebarLinks.vue';
 import NavLinks from '@theme/components/NavLinks.vue';
-import CodeFund from './CodeFund.vue';
 
 export default {
   name: 'Sidebar',
-  components: { SidebarLinks, NavLinks, CodeFund },
+  components: { SidebarLinks, NavLinks },
   props: ['items'],
 };
 </script>
